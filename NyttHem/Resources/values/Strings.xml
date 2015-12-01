@@ -2,4 +2,6 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">NyttHem</string>
+	<string name="Welcome">Välkommen till Nytt Hem!</string>
+	<string name="CreateAccount_Titel">Skapa ett konto för att spara uträkningar\npå ditt drömboende!</string>
 </resources>

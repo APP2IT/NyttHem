@@ -14,4 +14,12 @@ Global
 		{DD03D6C0-33EE-454C-AB89-9DAB1878C693}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD03D6C0-33EE-454C-AB89-9DAB1878C693}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.VersionControlPolicy = $2
+		$2.inheritsSet = Mono
+	EndGlobalSection
 EndGlobal
