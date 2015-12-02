@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <!-- Inherit from the light Material Theme -->
+    <style name="MyCustomTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <!-- Customizations go here -->
+        <!-- Override the app bar color -->
+        <item name="android:colorPrimary">@color/my_purple</item>
+        <!-- Override the color of UI controls -->
+        <item name="android:colorAccent">@color/my_purple</item>
+
+		<item name="android:statusBarColor">@color/my_blue</item>
+    </style>
+
+    <style name="btnLogin" >
+    <item name="android:layout_width" >fill_parent</item>
+    <item name="android:layout_height" >wrap_content</item>
+    <item name="android:textColor" >#ffffff</item>
+    <item name="android:gravity" >center</item>
+    <item name="android:layout_margin" >3dp</item>
+    <item name="android:textSize" >30dp</item>
+    <item name="android:textStyle" >bold</item>
+    <item name="android:shadowColor" >#000000</item>
+    <item name="android:shadowDx" >1</item>
+    <item name="android:shadowDy" >1</item>
+    <item name="android:shadowRadius" >2</item>
+  </style>
+
+</resources>
