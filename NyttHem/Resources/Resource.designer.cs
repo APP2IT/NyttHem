@@ -203,6 +203,9 @@ namespace NyttHem
 			// aapt resource value: 0x7f070000
 			public const int MyCustomTheme = 2131165184;
 			
+			// aapt resource value: 0x7f070001
+			public const int btnLogin = 2131165185;
+			
 			static Style()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

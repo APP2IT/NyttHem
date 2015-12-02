@@ -17,16 +17,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView1"
-        android:layout_marginLeft="110dp" />
+        android:layout_marginLeft="100dp"
+        android:textColor="#fffafafa"
+        android:textSize="16dp" />
     <Button
         android:text="Logga in"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnLogin"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:background="#ff1e88e5"
+        android:textColor="#fffafafa"
+        android:layout_marginBottom="10dp" />
     <Button
         android:text="Skapa konto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnCreateAccount" />
+        android:id="@+id/btnCreateAccount"
+        android:background="#ff1e88e5"
+        android:textColor="#fffafafa" />
 </LinearLayout>
