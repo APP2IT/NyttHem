@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace NyttHem
 {
-	[Activity (Label = "CreateAccountActivity", MainLauncher = false, Icon = "@mipmap/icon",Theme = "@android:style/Theme.Material.Light.NoActionBar", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]			
+	[Activity (Label = "CreateAccountActivity", MainLauncher = false, Icon = "@mipmap/icon",Theme = "@style/MyCustomTheme", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]			
 	public class CreateAccountActivity : Activity
 	{
 		protected override void OnCreate (Bundle savedInstanceState)

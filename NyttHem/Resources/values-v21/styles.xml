@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <!-- Inherit from the light Material Theme -->
+    <style name="MyCustomTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <!-- Customizations go here -->
+        <!-- Override the app bar color -->
+        <item name="android:colorPrimary">@color/my_purple</item>
+        <!-- Override the color of UI controls -->
+        <item name="android:colorAccent">@color/my_purple</item>
+
+		<item name="android:statusBarColor">@color/my_blue</item>
+    </style>
+
+</resources>
